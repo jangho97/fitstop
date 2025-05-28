@@ -1,0 +1,59 @@
+[
+  {
+    "id": "joseph",
+    "name": "요셉 정비사",
+    "keyword": "섭외",
+    "color": "#32CD32",
+    "profileImage": "/images/joseph.png",
+    "intro": "말 한마디가 관계를 바꾸기도 해요. 정비해드릴게요."
+  },
+  {
+    "id": "paul",
+    "name": "바울 정비사",
+    "keyword": "전도",
+    "color": "#DC143C",
+    "profileImage": "/images/paul.png",
+    "intro": "복음 전파도 엔진처럼 관리가 필요해요. 정비해볼까요?"
+  },
+  {
+    "id": "david",
+    "name": "다윗 정비사",
+    "keyword": "소통",
+    "color": "#1E90FF",
+    "profileImage": "/images/david.png",
+    "intro": "감정도 엔진처럼 식혀줘야 해요. 함께 살펴볼까요?"
+  },
+  {
+    "id": "daniel",
+    "name": "다니엘 정비사",
+    "keyword": "자기관리",
+    "color": "#8A2BE2",
+    "profileImage": "/images/daniel.png",
+    "intro": "꾸준함은 엔진의 핵심이죠. 관리 도와드릴게요."
+  },
+  {
+    "id": "moses",
+    "name": "모세 정비사",
+    "keyword": "관계",
+    "color": "#FFA500",
+    "profileImage": "/images/moses.png",
+    "intro": "무거운 관계의 짐, 잠시 점검하고 가요."
+  },
+  {
+    "id": "abraham",
+    "name": "아브라함 정비사",
+    "keyword": "말씀",
+    "color": "#2F4F4F",
+    "profileImage": "/images/abraham.png",
+    "intro": "길이 안 보일 땐 처음 부르셨던 말씀을 기억해봐요."
+  },
+  {
+    "id": "jonah",
+    "name": "요나 정비사",
+    "keyword": "모임",
+    "color": "#20B2AA",
+    "profileImage": "/images/jonah.png",
+    "intro": "도망치고 싶을 때도, 다시 정비받을 수 있어요."
+  }
+]
+
