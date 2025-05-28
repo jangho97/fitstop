@@ -1,27 +1,25 @@
 import React from 'react';
 
-type Props = {
-  text: string;
-  isUser?: boolean;
-};
+interface Props {
+  message: string;
+  sender: 'user' | 'character';
+  color: string;
+}
 
-export default function ChatBubble({ text, isUser = false }: Props) {
+const ChatBubble = ({ message, sender, color }: Props) => {
   return (
     <div
-      style={{
-        maxWidth: '80%',
-        alignSelf: isUser ? 'flex-end' : 'flex-start',
-        backgroundColor: isUser ? '#E2E2E2' : '#FFFBE6',
-        borderRadius: '16px',
-        padding: '10px 14px',
-        margin: '4px 0',
-        fontSize: '14px',
-        lineHeight: '1.6',
-        whiteSpace: 'pre-wrap'
-      }}
+      className={`max-w-[75%] px-4 py-2 rounded-xl ${
+        sender === 'user'
+          ? 'bg-gray-200 self-end'
+          : 'text-white self-start'
+      }`}
+      style={sender === 'character' ? { backgroundColor: color } : {}}
     >
-      {text}
+      {message}
     </div>
   );
-}
+};
+
+export default ChatBubble;
 
